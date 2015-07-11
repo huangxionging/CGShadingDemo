@@ -28,8 +28,9 @@
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     
     // 设备环境
+
     CGContextRef ctx = CGBitmapContextCreate(nil, rect.size.width, rect.size.height, 8, rect.size.width * 4, colorSpace, (CGBitmapInfo) kCGImageAlphaPremultipliedFirst);
-    
+
 //    CGPoint     startPoint,
 //    endPoint;
 //    CGFunctionRef myFunctionObject;
